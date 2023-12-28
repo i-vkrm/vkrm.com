@@ -1,0 +1,64 @@
+/* Basic styling for the employee details */
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.employee{
+    border: 0px solid #100101;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin: 0;
+}
+
+/* Style for the input section */
+.input-section {
+    margin-top: 20px;
+}
+
+.input-section label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-section input[type='text']{
+    padding: 8px;
+    width: 100px;
+    margin-right: 10px;
+    color: rgb(249, 9, 9);
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+}
+
+.input-section button{
+    padding: 0px 15px;
+    cursor: pointer;
+    color: rgb(16, 7, 1);
+    font-weight: bold;
+    border-radius: 0%;
+}
+
+body{
+    background-color: rgb(247, 242, 242);
+    background-image: url(https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1094.jpg?w=1060&t=st=1703755340~exp=1703755940~hmac=682da9c0e95bbb61c2555dfcfc7bed689add8db2a9f8135f3483084900cc9e7e);
+    background-size: 1280px;
+    clip-rule: inherit;
+}
+.iframe-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100vh;
+    border: none;
+}
+p {
+    text-align: left;
+    top: 0;
+    width: fit-content;
+}

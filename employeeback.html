@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>"Embark on a Journey: Building Web Marvels!"
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <style>
+        /* Basic styling for links */
+        .social-links {
+            margin-top: 50px;
+            text-align: center;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 24px;
+            color: #333;
+            text-decoration: underline;
+        }
+        .social-links a:hover {
+            color: blue;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+            background-color: aliceblue;
+            background-image: url(https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1094.jpg?w=1060&t=st=1703755340~exp=1703755940~hmac=682da9c0e95bbb61c2555dfcfc7bed689add8db2a9f8135f3483084900cc9e7e);
+            background-size: 1280px;
+        }
+        input[type="text"],
+        input[type="password"],
+        input[type="submit"] {
+            padding: 10px;
+            margin: 2px;
+            border-radius: 10px;
+            border: 1px solid #f10c0c;
+            cursor: pointer;
+        }
+        .corner-paragraph {
+            position: absolute;
+            bottom: 0px;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="corner-paragraph">
+        <p>Note:No matter which field of work you want to go in, it is of great importance to learn at least one programming language.. Confusion is part of programming...❤️❤️ </p>
+    </div>
+    <div class="social-links">
+        <a href="https://www.facebook.com/itz.vkrm" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/i.vkrm/" target="_blank">Instagram</a>
+        <a href="https://www.linkedin.com/in/vikram-raj00/" target="_blank">Linkedin</a>
+    </div>
+    <h2>Login</h2>
+    <form id="loginForm">
+        <input type="text" id="username" placeholder="Enter username"><br>
+        <input type="password" id="password" placeholder="Enter password"><br>
+        <input type="submit" value="Login">
+    </form>
+
+    <script>
+        document.getElementById("loginForm").addEventListener('submit', function(event){
+            event.preventDefault(); // prevent form submission
+
+            // Get the input values
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+
+            // Check if the username and password are correct
+            if (username === 'VKRM' && password === '123') {
+                window.location.href = 'employee.html';
+                } else {
+                    alert('Wrong credentials!');
+                }
+        });
+    </script>
+</body>
+</html>
